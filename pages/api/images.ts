@@ -1,5 +1,5 @@
 import S3 from "aws-sdk/clients/s3";
-import { AVATAR_BUCKET } from "lib/constants";
+import { S3_BUCKET } from "lib/constants";
 import { ValidationError } from "lib/errors";
 import { NextApiRequest, NextApiResponse } from "next";
 import connectDb from "server/db";
@@ -96,7 +96,7 @@ function createPresignedPost({
 
   const params = {
     Expires: 60,
-    Bucket: AVATAR_BUCKET,
+    Bucket: S3_BUCKET,
     Conditions: [["content-length-range", 100, 10000000]], // 100Byte - 10MB
     Fields: {
       "Content-Type": contentType,

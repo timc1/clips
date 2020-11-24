@@ -31,4 +31,4 @@ export const NOTIFICATIONS: { [k: string]: TNotificationType } = {
 };
 
 export const AVATAR_URL = "https://shimmer-avatars.s3-us-west-1.amazonaws.com/";
-export const AVATAR_BUCKET = "shimmerapp";
+export const S3_BUCKET = "shimmerapp";
