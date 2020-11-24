@@ -1,0 +1,7 @@
+.env.local
+node_modules
+dist
+.next
+dump.rdb
+mongodump
+.DS_Store

@@ -1,0 +1,15 @@
+{
+  "name": "shimmer.app",
+  "alias": "shimmer",
+  "version": 2,
+  "env": {
+    "SESSION_NAME": "@session-name",
+    "MONGO_URI": "@mongo-uri",
+    "SENDGRID_API_KEY": "@sendgrid-api-key",
+    "SESSION_COOKIE_PASSWORD_V1": "@session-cookie-password-v1",
+    "RECAPTCHA_SECRET_KEY": "@recaptcha-secret-key",
+    "JWT_KEY": "@jwt-key",
+    "S3_ACCESS_KEY_ID": "@s3-access-key-id",
+    "S3_SECRET_ACCESS_KEY": "@s3-secret-access-key"
+  }
+}
