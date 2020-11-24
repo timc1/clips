@@ -28,7 +28,7 @@ Postel uses `yarn` to manage dependencies – let's get started:
 
 4. Setup a Sendgrid account [here](https://signup.sendgrid.com/). Follow the instructions to send basic emails and copy the api key in `SENDGRID_API_KEY`
 
-5. Setup an IAM user with S3 access on your AWS account, and copy the access key id & secret access key in the `.env` as well
+5. Setup an IAM user with S3 access on your AWS account, and copy the access key id & secret access key in the `.env` as well. Setup 2 buckets and update [these](https://github.com/timc1/clips/blob/main/lib/constants.ts#L33-L34) constants to reflect them.
 
 6. Setup reCAPTCHA [here](https://www.google.com/recaptcha/admin) and copy the key into `.env`.
 
